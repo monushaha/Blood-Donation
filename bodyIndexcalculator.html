@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Body Mass Calcualtor</title>
+    <script type="text/javascript">
+        function f1(){
+            var a;
+            a=parseInt(f.age.value);
+b=parseInt(f.kg.value);
+if(((a==18)||(a>18&&a<=65))&&(b==50||(b>50&&b<=60)))
+{
+  alert("Congratulation You'r  eligible you can donate up to 350ml");
+  alert(" Click Steps of Blood Donation");
+}
+else if(((a==18)||(a<=65))&&(b==50||(b>60&&b<=70)))
+{
+    alert("Congratulation You'r  eligible you can donate up to 450ml");
+    alert(" Click Steps of Blood Donation");
+}
+else if (((a==18)||(a<=65))&&(b==50||(b>=70)))
+{
+    
+    alert("Congratulation You'r  eligible & you can donate up to 500ml");
+    alert(" Click Steps of Blood Donation");
+   
+}
+else {
+    alert("Your not eligible ")
+    alert("Click term  and Conditions");
+
+}
+       }
+    </script>
+    <link rel="stylesheet" href="project.css">
+</head>
+<body>
+    <div class="head">
+        <IMG src="photos/b.jpg" height="90" width="150" align="right">
+            <h1 align="center" class="h">Lifesavers Network:Hope in Drop
+              <IMG class="r" src="photos/b.jpg" height="90" width="150" align="left"> 
+              </div>
+              <hr>
+              <br><br>
+              <table>
+                <tr>   
+    <button>
+        <a href="index.html">Home Page</a></button>
+    </tr>
+    <tr>
+    <button>
+        <a href="Term&conditions.html">Term And Condition</a></button>
+    </tr>
+    <tr>
+        <button>
+    <a href="steps.html">Steps Of Blood Donation</a>
+        </button>
+    </tr>
+    <tr>
+        <button>
+            <a href="bodyIndexcalculator.html">BMI</a>
+        </button>
+    </tr>
+    <tr>
+        <button>
+           <a href="login.html"> Login/Sign Up</a>
+        </button>
+    </tr>
+    </table>
+    <div class="contact"></div>
+    <center>
+  <form action="get/post" name="f">
+    <div>
+    <h1>Body Mass Index Calculator</h1>
+<label for="">Age  : - </label>
+<input type="tel" name="age" placeholder="Enter Your age"required><br><br>
+<label for="">Enter Your Weight :-
+</label>
+<input type="text" placeholder="Weight in KG" name="kg" required><br><br>
+<label for="">Enter Your Blood Group :-</label>
+<select>
+    <option>Select</option>
+    <option>A<sup>+</sup>
+        <option >A<sup>-</sup></option>
+        <option >B<sup>+</sup></option>
+        <option >B<sup>-</sup></option>
+        <option >AB<sup>+</sup></option>
+        <option >AB<sup>-</sup></option>
+        <option >O<sup>+</sup></option>
+        <option >O<sup>-</sup></option>
+       
+</select>
+<br><br>
+<input type="button" value="Submit" onclick="f1()" >
+</div>
+</form>
+</body>
+</html>

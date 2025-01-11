@@ -1,0 +1,57 @@
+.s{
+color: rgb(23, 21, 21);
+font-size: 30px;
+font-family:Agency FB;
+image-orientation: 200px;
+border: 2em;
+text-align: center;
+
+}
+h1{
+   text-align: center;font-size:50px;color:brown;background-color:lightsalmon;
+}
+form{
+   font-family: Copperplate Gothic Bold;
+}
+sub{
+   width: 10cm;
+   height: 2em;
+}
+.h{
+   color:rgb(88, 9, 9);
+   background-color:white;
+   margin-top:20px;
+   font-size:40px;
+   font-family:Copperplate Gothic Light;
+   }
+   .contact{
+       background-color: navy;
+       color:rgb(237, 237, 237);font-size: 25px;font-family:Verdana;padding-bottom: 1cm;
+   
+   }
+   a{
+       font-family: Copperplate Gothic Light;
+       font-size: x-large;
+       border: none;
+       
+   }
+   button {
+       padding: 1em 1em;
+       background-color:#fff;
+       color: #fff;
+       border: none;
+       cursor: pointer;
+   }
+   input,select{
+      padding: 0.5em;
+      width: 3cm;
+   }
+   .name{
+      padding: .5em;
+      width: 5cm;
+   }
+   #new{
+      color: gray;
+      font-size: 20px;
+   }
+ 

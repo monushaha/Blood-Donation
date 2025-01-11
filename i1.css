@@ -1,0 +1,69 @@
+h1{
+    color:rgb(88, 9, 9);background-color:white;margin-top:20px;font-size:40px;font-family:Copperplate Gothic Light;
+}
+h2{
+    color:rgb(117, 17, 17);float:center;
+}
+.nara{
+    position:fixed;right:35px;font-style:italic;
+}
+#ab{
+    font-size:30px;position:fixed;left:20px;
+}
+.headinfo{
+    color:black;Text-align:center;font-family:Verdana;
+}
+h3{
+    color:gray;Text-align:center;
+}
+.st{
+    color:black;
+}
+.class{
+    Text-align:right;
+}
+.st{
+position:static;left:20px;font-size:20px;
+}
+#r{
+    position:fixed;
+}
+.ty{
+    list-style-type:disc;list-style-position:inside;
+}
+.contact{
+    background-color: navy;
+    color:rgb(237, 237, 237);font-size: 25px;font-family:Verdana;padding-bottom: 1cm;
+
+}IMG{
+    position:static;
+}
+pre{
+    font-size: 18px;font-family: Copperplate Gothic Bold;
+ }
+ .info{
+    color:black;
+ }
+ button {
+    padding: 1em 1em;
+    background-color:#fff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    
+}
+
+a{
+    font-family: Copperplate Gothic Light;
+    font-size: x-large;
+}
+.con
+{
+background-color: rgb(8, 77, 103);
+margin: 0;
+padding: 0;
+color:white;
+}
+iframe{
+   text-align: center;
+}

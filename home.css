@@ -1,0 +1,41 @@
+
+.h{
+color:rgb(88, 9, 9);
+background-color:white;
+margin-top:20px;
+font-size:40px;
+font-family:Copperplate Gothic Light;
+}
+button {
+    padding: 1em 1em;
+    background-color:#fff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+a{
+    font-family: Copperplate Gothic Light;
+    font-size: x-large;
+}
+.about
+{
+    font-size: large;
+    font-family: Candara;
+    line-break: auto;
+
+}
+.contact{
+    background-color: navy;
+    color:rgb(237, 237, 237);font-size: 25px;padding-bottom: 1cm;
+
+}
+.con
+{
+background-color: rgb(8, 77, 103);
+margin: 0;
+padding: 0;
+}
+pre{
+color: #fff;
+    font-family: Copperplate Gothic Light;height: max-content;
+}
